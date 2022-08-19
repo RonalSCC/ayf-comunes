@@ -1,0 +1,34 @@
+{
+  "name": "ayf-comunes",
+  "version": "1.0.0",
+  "description": "Componentes generales del modulo",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Ronal C",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/jquery": "^3.5.14",
+    "@types/react": "^18.0.17",
+    "jquery": "^3.6.0",
+    "react": "^18.2.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-import-css": "^3.0.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.54.4",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
